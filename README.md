@@ -38,8 +38,6 @@ Para quem não possui o Python instalado, disponibilizamos um executável pronto
 
 https://drive.google.com/file/d/1uy6_9DqKr8dPqcEddg99D8tCMRGdBA1G/view?usp=drive_link
 
-
-
 📝 Sobre o Código
 O script principal contém:
 
