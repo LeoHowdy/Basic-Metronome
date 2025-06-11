@@ -38,7 +38,9 @@ Para quem não possui o Python instalado, disponibilizamos um executável pronto
 
 🔗 Baixar Executável Basic Metrônomo (Google Drive)
 
-Observação: Para o funcionamento correto do executável, mantenha o arquivo tick.wav na mesma pasta do .exe.
+https://drive.google.com/file/d/1uy6_9DqKr8dPqcEddg99D8tCMRGdBA1G/view?usp=drive_link
+
+
 
 📝 Sobre o Código
 O script principal contém:
@@ -51,7 +53,8 @@ Uso de threading para não travar a interface Tkinter.
 
 Interface gráfica simples e intuitiva, com entrada para BPM e botões coloridos para iniciar e parar.
 
-💡 Possíveis Melhorias Futuras
+💡 Possíveis Melhorias Futuras em projeto - sem data definida de lançamento.
+
 Adicionar ajuste de volume do som.
 
 Permitir seleção de diferentes sons para as batidas.
