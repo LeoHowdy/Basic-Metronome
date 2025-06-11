@@ -40,6 +40,7 @@ Execute o script principal:
 
 bash
 python metronomo.py
+
 🖥️ Como Usar
 Insira o BPM desejado no campo de texto (ex: 60, 120)
 
