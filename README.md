@@ -20,7 +20,10 @@ Som de tique audível
 
 Sistema de threading para operação não-bloqueante
 
-⚙️ Pré-requisitos
+
+
+
+⚙️ Pré-requisitos se quiser compilar com o código.
 Python 3.8+
 
 Bibliotecas:
