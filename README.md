@@ -14,8 +14,6 @@ Este projeto é um metrônomo simples desenvolvido em Python, com interface grá
 - Utilização de **threads** para garantir que a interface permaneça responsiva durante a execução.
 - Suporte para execução via script Python e executável empacotado com PyInstaller (inclui mecanismo para localizar o arquivo de som corretamente).
 
----
-
 ## 🎯 Como Executar
 
 ### Opção 1: Executar pelo código fonte (requer Python instalado)
