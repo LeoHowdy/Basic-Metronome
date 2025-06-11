@@ -1,70 +1,78 @@
-# Basic-Metronome
-Um metrônomo digital simples, leve e funcional, desenvolvido em Python com interface gráfica. Ideal para músicos que precisam praticar mantendo o tempo com precisão. A batida é reproduzida com som real (arquivo .wav) e permite ajustar o BPM facilmente.
-# Basic Metrônomo em Python
+Basic Metronome - Metrônomo Simples em Python
+https://img.shields.io/badge/Python-3.8%252B-blue
+https://img.shields.io/badge/License-MIT-green
 
-Este projeto é um metrônomo simples desenvolvido em Python, com interface gráfica utilizando **Tkinter** e áudio gerenciado pela biblioteca **Pygame**. Foi criado para oferecer uma ferramenta funcional e didática para quem deseja aprender programação Python, manipulação de áudio e multithreading.
+Um metrônomo simples com interface gráfica desenvolvido em Python, perfeito para músicos e estudantes que precisam de uma ferramenta básica de acompanhamento rítmico.
 
----
+📥 Download do Executável
+⬇️ Baixar versão para Windows (.exe) (Link do Google Drive)
 
-## 📌 Funcionalidades Principais
+✨ Funcionalidades
+Interface gráfica limpa e intuitiva
 
-- Configuração dinâmica do **BPM (batidas por minuto)** via interface gráfica.
-- Controle para **iniciar** e **parar** o metrônomo com botões intuitivos.
-- Som de batida (“tick”) sincronizado perfeitamente com o BPM configurado.
-- Utilização de **threads** para garantir que a interface permaneça responsiva durante a execução.
-- Suporte para execução via script Python e executável empacotado com PyInstaller (inclui mecanismo para localizar o arquivo de som corretamente).
+Ajuste de BPM (batidas por minuto)
 
-## 🎯 Como Executar
+Controle de início/parada
 
-### Opção 1: Executar pelo código fonte (requer Python instalado)
+Som de tique audível
 
-1. Clone este repositório ou faça download dos arquivos.
+Sistema de threading para operação não-bloqueante
 
-2. Instale a biblioteca necessária:
+⚙️ Pré-requisitos
+Python 3.8+
 
-```bash
+Bibliotecas:
+
+bash
 pip install pygame
+🚀 Como Executar
+Clone o repositório:
 
-Garanta que o arquivo tick.wav esteja na mesma pasta do script Python.
+bash
+git clone https://github.com/seu-usuario/basic-metronome.git
+cd basic-metronome
+Execute o script principal:
 
-Execute o programa com o Python:
+bash
+python metronomo.py
+🖥️ Como Usar
+Insira o BPM desejado no campo de texto (ex: 60, 120)
 
-python basic_metronomo.py
+Clique em "Iniciar" para começar o metrônomo
 
-Opção 2: Executar via executável (Windows)
-Para quem não possui o Python instalado, disponibilizamos um executável pronto para uso. Basta baixar, descompactar (se necessário) e executar:
+Clique em "Parar" para interromper
 
-🔗 Baixar Executável Basic Metrônomo (Google Drive)
+🛠️ Tecnologias Utilizadas
+Tkinter: Interface gráfica
 
-https://drive.google.com/file/d/1uy6_9DqKr8dPqcEddg99D8tCMRGdBA1G/view?usp=drive_link
+PyGame: Reprodução de áudio
 
-📝 Sobre o Código
-O script principal contém:
+Threading: Execução paralela
 
-resource_path(): função que adapta o caminho do arquivo de som para funcionar tanto em modo script quanto quando empacotado com PyInstaller.
+PyInstaller: Criação do executável
 
-Controle da execução do metrônomo via variável global rodando para iniciar/parar o loop de batidas.
+📦 Gerando Executável
+Para gerar o executável Windows:
 
-Uso de threading para não travar a interface Tkinter.
+Instale o PyInstaller:
 
-Interface gráfica simples e intuitiva, com entrada para BPM e botões coloridos para iniciar e parar.
+bash
+pip install pyinstaller
+Execute o comando de build:
 
-💡 Possíveis Melhorias Futuras em projeto - sem data definida de lançamento.
+bash
+pyinstaller --onefile --windowed --add-data "tick.wav;." metronomo.py
+O executável estará em dist/metronomo.exe
 
-Adicionar ajuste de volume do som.
+📝 Notas
+O arquivo tick.wav deve estar no mesmo diretório do script
 
-Permitir seleção de diferentes sons para as batidas.
+Testado em Windows 10/11
 
-Visualizador gráfico ou animação sincronizada com as batidas.
-
-Salvamento da última configuração de BPM para inicialização automática.
-
-Compatibilidade com sistemas operacionais diferentes do Windows.
+Volume pode ser ajustado no sistema operacional
 
 📄 Licença
-Este projeto está sob a licença MIT. Sinta-se livre para copiar, modificar e redistribuir.
+Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para detalhes.
 
-📬 Contato
-Dúvidas, sugestões ou contribuições são muito bem-vindas! Abra uma issue ou envie mensagem.
+Desenvolvido com ❤️ por [Seu Nome] - Contribuições são bem-vindas!
 
-Obrigado por usar o Basic Metrônomo! Bons estudos e bons códigos!
