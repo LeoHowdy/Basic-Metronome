@@ -7,6 +7,8 @@ Um metrônomo simples com interface gráfica desenvolvido em Python, perfeito pa
 📥 Download do Executável
 ⬇️ Baixar versão para Windows (.exe) (https://drive.google.com/file/d/1uy6_9DqKr8dPqcEddg99D8tCMRGdBA1G/view?usp=drive_link)
 
+![divulgametronome](https://github.com/user-attachments/assets/660b1546-5d0e-443b-8202-6fb23337e142)
+
 ✨ Funcionalidades
 Interface gráfica limpa e intuitiva
 
