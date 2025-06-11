@@ -76,5 +76,5 @@ Volume pode ser ajustado no sistema operacional
 📄 Licença
 Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para detalhes.
 
-Desenvolvido com ❤️ por [Seu Nome] - Contribuições são bem-vindas!
+Desenvolvido com ❤️ por [@leoamota] - Contribuições são bem-vindas!
 
