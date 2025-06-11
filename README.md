@@ -29,7 +29,7 @@ pip install pygame
 Clone o repositório:
 
 bash
-git clone https://github.com/seu-usuario/basic-metronome.git
+git clone https://github.com/LeoHowdy/basic-metronome.git
 cd basic-metronome
 Execute o script principal:
 
