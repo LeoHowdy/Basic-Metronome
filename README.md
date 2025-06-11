@@ -5,7 +5,7 @@ https://img.shields.io/badge/License-MIT-green
 Um metrônomo simples com interface gráfica desenvolvido em Python, perfeito para músicos e estudantes que precisam de uma ferramenta básica de acompanhamento rítmico.
 
 📥 Download do Executável
-⬇️ Baixar versão para Windows (.exe) (Link do Google Drive)
+⬇️ Baixar versão para Windows (.exe) (https://drive.google.com/file/d/1uy6_9DqKr8dPqcEddg99D8tCMRGdBA1G/view?usp=drive_link)
 
 ✨ Funcionalidades
 Interface gráfica limpa e intuitiva
